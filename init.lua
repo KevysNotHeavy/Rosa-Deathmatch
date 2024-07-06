@@ -8,4 +8,4 @@ mode.description = "A simple deathmatch gamemode"
 
 mode.defaultConfig = {autoSpawn = false}
 
-require("modes.deathmatch.deathmatch")
+require("modes.Rosa-Deathmatch.deathmatch")

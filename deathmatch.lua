@@ -101,7 +101,7 @@ mode:addHook("Logic",function ()
 			for _,ply in ipairs(Players) do
 				messagePlayerWrap(ply,"Map has been changed to "..map.."!")
 				if ply.human then
-					hook.run("TeleportHuman",ply.human)
+					hook.run("ReleaseGrab",ply.human)
 					ply.human:remove()
 				end
 				ply.data.killsRound = 0
